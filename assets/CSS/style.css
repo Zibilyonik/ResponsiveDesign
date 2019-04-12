@@ -1,0 +1,46 @@
+@media only screen and (min-width:768px){
+.fixed-topbar {
+  position: fixed;
+  box-shadow: 3px 3px 5px grey;
+  z-index: 500;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  color: #444444;
+}
+.fixed-bar-link {
+  color: lightgray;
+}
+.fixed-topbar-left{
+  display: inline-flex;
+  width: 50%;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+.fixed-bar-tnw {
+  background-color: red;
+  font-family: fantasy;
+  height: inherit;
+  font-size: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  width: 80px;
+  justify-content: center;
+}
+.conference-img{
+  width:173px;
+  height: 15px;
+}
+.fixed-topbar span{
+  width: 29%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  float: right;
+}
+a{
+  text-decoration: none;
+}
+}
