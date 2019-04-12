@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 @media only screen and (min-width:768px){
 a{
     text-decoration: none;
@@ -5,7 +8,7 @@ a{
 p {
   display: block;
   line-height: 1.2;
-  margin: 1vh;
+  margin: 1vh 1vh 1vh 0;
 }
 .fixed-topbar {
   position: fixed;
@@ -86,25 +89,37 @@ p {
 .landing-articles-container p {
   font-family: "Roboto Condensed";
   display: block;
-  margin: 12.5% 0 1vh 1.5vh;
+}
+.big-h {
+  display:block;
+  line-height: 1.2;
+  width: 80%;
 }
 .landing-articles-container h1{
   font-family: "Poppins";
-  font-weight: 900;
+  font-weight: 700;
   color: white;
   font-size: 2em;
 }
-.small-h{
-
+.small-article .small-h{
+  font-size: 1em;
 }
 .big-article{
   height: 100%;
   width: 66%;
   float: left;
-  display: inline-flex;
-  background-color: red;
-  align-items: flex-end;
+  display: block;
   margin: 0.5%;
+  padding: 16% 2vh 0vh 2vh;
+  background-image: url("../../assets/images/ai-artificial-intelligence-code-34676-405x270.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  color:#fff;
+  transition:1s;
+}
+.big-article:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .small-article{
   height: 49.5%;
@@ -112,5 +127,23 @@ p {
   margin: 0.5% 0.5% 0 0;
   display:inline-grid;
   background-color: blue;
+  padding: 4% 2vh 2vh 2vh;
+}
+.landing-articles-container img {
+  width:3vh;
+  height: 3vh;
+}
+.article-bottom-description {
+  width: 35%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.article-bottom-description a{
+color:gray;
+}
+.article-bottom-description a:hover {
+  color: #fff;
 }
 }
