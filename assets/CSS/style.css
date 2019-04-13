@@ -5,10 +5,21 @@
 a{
     text-decoration: none;
 }
-p {
+p, h4 {
   display: block;
   line-height: 1.2;
-  margin: 1vh 1vh 1vh 0;
+  margin: 0.5vh:
+}
+h3{
+  font-family: "Poppins";
+  font-size: 1.5em;
+  color:#FF4422;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2vh;
+}
+h3:hover {
+  color:black;
 }
 .fixed-topbar {
   position: fixed;
@@ -85,10 +96,13 @@ p {
 .landing-articles-container{
   width: inherit;
   height: 60vh;
+  margin-bottom: 5vh;
 }
-.landing-articles-container p {
+.landing-articles-container h4 {
   font-family: "Roboto Condensed";
-  display: block;
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 1vh;
 }
 .big-h {
   display:block;
@@ -111,34 +125,44 @@ p {
   display: block;
   margin: 0.5%;
   padding: 16% 2vh 0vh 2vh;
-  background-image: url("../../assets/images/ai-artificial-intelligence-code-34676-405x270.jpg");
+  background-image: url("../images/ai-artificial-intelligence-code-34676-405x270.jpg");
+}
+.background-img-landing:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.background-img-landing {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
   color:#fff;
   transition:1s;
 }
-.big-article:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
 .small-article{
-  height: 49.5%;
+  height: 49%;
   width: 32.5%;
   margin: 0.5% 0.5% 0 0;
   display:inline-grid;
-  background-color: blue;
   padding: 4% 2vh 2vh 2vh;
+}
+#LandingItem1{
+  background-image: url("../images/Apple-News-Plus.jpg");
+}
+#LandingItem2 {
+  background-image: url("../images/Anthem-368x276.jpg");
 }
 .landing-articles-container img {
   width:3vh;
   height: 3vh;
 }
 .article-bottom-description {
-  width: 35%;
+  width: 50%;
   height: 20%;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 400;
 }
 .article-bottom-description a{
 color:gray;
@@ -146,4 +170,25 @@ color:gray;
 .article-bottom-description a:hover {
   color: #fff;
 }
+}
+.mid-page-container {
+  width:80%;
+  margin:0 auto;
+}
+.latest-news-grid-container{
+  width: 100%;
+  height:75vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2vh;
+  grid-auto-rows: 50%;
+  grid-auto-columns: 25%;
+  margin: 0 auto;
+}
+.latest-news-article {
+  width: 100%;
+  height: 100%;
+}
+.latest-news-article img {
+  height: 55%;
 }
