@@ -4,11 +4,13 @@
 @media only screen and (min-width:768px){
 a{
     text-decoration: none;
+    color: #777777;
 }
-p, h4 {
+a,p, h4 {
   display: block;
   line-height: 1.2;
-  margin: 0.5vh:
+  font-family: "Roboto Condensed";
+  color: #777777;
 }
 h3{
   font-family: "Poppins";
@@ -44,7 +46,6 @@ h3:hover {
 }
 .fixed-bar-tnw {
   background-color: red;
-  font-family: "Cute Font";
   height: inherit;
   font-size: 2em;
   display: inline-flex;
@@ -53,8 +54,9 @@ h3:hover {
   justify-content: center;
   font-weight: bold;
 }
-.fixed-bar-tnw a{
-    color: white;
+#TNWLogoTop {
+  font-family: "Cute Font";
+  color: white;
 }
 .conference-img{
   width:127px;
@@ -99,7 +101,6 @@ h3:hover {
   margin-bottom: 5vh;
 }
 .landing-articles-container h4 {
-  font-family: "Roboto Condensed";
   display: flex;
   align-self: flex-end;
   margin-bottom: 1vh;
@@ -254,7 +255,7 @@ color:gray;
 .funding-item {
   background: #fffaf8;
 }
-.funding-item > img {
+.funding-item  img {
   width:100%;
 }
 .funding-properties{
@@ -370,3 +371,37 @@ color:gray;
    font-weight: bold;
    font-family: Sans-serif;
  }
+footer {
+  height: 30vh;
+  background-color: black;
+  width: 100%;
+  display: block;
+}
+.footer-links{
+  font-size: 0.9em;
+  width: inherit;
+  display: inline-flex;
+  justify-content: space-between ;
+  padding: 5vh 30%;
+}
+.footer-links h4:hover {
+  color: white;
+}
+.footer-desc span{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin: 5vh auto;
+}
+.footer-desc a {
+  margin: 0 1vh;
+}
+.tnw-footer-logo {
+  font-family: "Cute Font";
+  font-weight: bold;
+  font-size: 1.1em;
+  color: white;
+}
+.stackpath {
+  color: white;
+}
