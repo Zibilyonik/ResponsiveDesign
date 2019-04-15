@@ -116,7 +116,8 @@ h3:hover {
   font-size: 2em;
 }
 .small-article .small-h{
-  font-size: 1em;
+  font-size: 1.5em;
+  margin: 0 0 4.5% 0;
 }
 .big-article{
   height: 100%;
@@ -192,3 +193,97 @@ color:gray;
 .latest-news-article img {
   height: 55%;
 }
+.latest-news-article figcaption {
+  padding: 1.5% 0 0 0;
+}
+.latest-news-article .article-title {
+  font-size: 1.03em;
+  font-weight: bold;
+  font-family: "Oswald";
+  line-height: 1.4;
+  color:black;
+  display: block;
+  width: 93%;
+}
+.article-title:hover {
+  color: red;
+  text-decoration: underline;
+}
+.latest-news-article span , .latest-news-article a {
+  line-height: 20px;
+  color:#aaa;
+  text-decoration: none;
+}
+.latest-news-article span a:hover {
+  color:#555;
+}
+.latest-funding-grid-container {
+  display: grid;
+  grid-column-gap:3vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 15% 90%;
+  width:100%;
+  margin: 10px auto;
+  height: 60vh;
+}
+.funding-header {
+  grid-column:1 / span 4;
+}
+.funding-header h3 {
+  width: 45%;
+  float:left;
+}
+.funding-header span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:28%;
+  float: right;
+}
+.funding-header span a {
+  color: red;
+  border-right: 1px solid red;
+  padding-right: 2.5%;
+}
+.funding-header span a:hover {
+  color: black;
+}
+.funding-item {
+  background: #fffaf8;
+}
+.funding-item > img {
+width:100%;
+}
+.funding-properties{
+width: 15%;
+height: 25%;
+float: left;
+}
+.funding-list {
+  list-style-image: none;
+  float: left;
+  display: block;
+  width:85%;
+  height:25%;
+  line-height: 1.8;
+}
+.funding-list a{
+  text-decoration: none;
+  color:#aaa;
+}
+.funding-list a:hover{
+  color: black;
+}
+.fund-exp {
+  height: 25%;
+  width:100%;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 3%;
+  font-size: 0.9em;
+  border-top: 1px solid rgba(255,68,34,.25);
+  clear: left;
+}
+ .fund-exp a{
+   color:#555;
+ }
