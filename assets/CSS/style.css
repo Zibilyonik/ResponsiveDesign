@@ -237,19 +237,28 @@ color:gray;
 .funding-header h3 {
   width: 45%;
 }
-.funding-header span {
+.extras-span{
   display: flex;
   align-items: center;
   justify-content: space-between;
   width:28%;
+  text-align: right;
   float: right;
 }
-.funding-header span a {
+#LatestDeals {
+  display:inline-block;
+  text-align: right;
+}
+#LatestDeals a{
+  border-right: none;
+  padding-right: 0;
+}
+.extras-span a {
   color: red;
   border-right: 1px solid red;
   padding-right: 2.5%;
 }
-.funding-header span a:hover {
+.extras-span a:hover {
   color: black;
 }
 .funding-item {
@@ -382,6 +391,25 @@ ul li::before {content: "•"; color: red;
   margin-left: -1em}
 .topic-list {
   padding: 0 20px;
+  margin: 5px auto;
+}
+.latest-deals-grid-container{
+  width: 100%;
+  height:85vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2vh;
+  grid-auto-rows: 50%;
+  grid-auto-columns: 25%;
+  margin: 50px auto;
+}
+.latest-deals-grid-container figure {
+  width: 100%;
+  height: 100%;
+}
+.latest-deals-grid-container figure img{
+  height:270px;
+  width:inherit;
 }
 .footer-links{
   font-size: 0.9em;
