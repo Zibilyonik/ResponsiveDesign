@@ -270,17 +270,18 @@ color:gray;
   height:100px;
 }
 .funding-properties{
-  width: 15%;
+  width: 10%;
   height: 25%;
   float: left;
 }
 .funding-list {
   list-style-image: none;
   float: left;
-  display: block;
-  width:85%;
+  padding: 2.5% 0 3% 3%;
+  width:90%;
   height:25%;
   line-height: 1.8;
+  font-size: 0.8em;
 }
 .funding-list a, .fund-exp a span .on {
   text-decoration: none;
@@ -293,12 +294,10 @@ color:gray;
   color: black;
 }
 .fund-exp {
-  height: 25%;
+  height: 20%;
   width:100%;
-  padding-top: 10%;
-  padding-right: 5%;
-  padding-left: 3%;
-  font-size: 0.9em;
+  padding: 5% 2% 0 5%;
+  font-size: 0.8em;
   border-top: 1px solid rgba(255,68,34,.25);
   clear: left;
 }
@@ -325,7 +324,7 @@ color:gray;
  }
  .topics-item h3 {
    position: relative;
-   top:-23vh;
+   top:-25vh;
  }
  .topic-first{
    width: 100%;
