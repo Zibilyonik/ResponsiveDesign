@@ -316,7 +316,7 @@ color:gray;
  }
  .topics-item {
    background-image: url("../../assets/images/bitcoin-price-rise.jpg");
-   background-size: 100% 40%;
+   background-size: 25vw 20vw;
    background-repeat: no-repeat;
    background-position: top;
    padding-top:35%;
@@ -340,7 +340,8 @@ color:gray;
    font-size: 0.8em;
    margin-bottom: 0.3em;
    display: inline-block;
-   margin-left: -58px; /* just a band-aid, have to fix later */
+   width: 100%;
+   text-align: left;
 
  }
  .topic-first span {
@@ -357,11 +358,12 @@ color:gray;
    color: #f42;
    margin-top: 3.5%;
    background-color: rgba(255,68,34,.06);
+   overflow-y: hidden;
 
  }
  .topic-latest img {
-   width:25%;
-   height: 100%;
+   width:7vw;
+   height: 7vw;
    float:right;
    padding:0;
  }
