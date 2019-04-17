@@ -186,14 +186,15 @@ color:gray;
   grid-gap: 2vh;
   grid-auto-rows: 50%;
   grid-auto-columns: 25%;
-  margin: 0 auto;
+  margin: 10vh auto;
 }
 .latest-news-article {
   width: 100%;
   height: 100%;
 }
 .latest-news-article img {
-  height: 55%;
+  height: 60%;
+  width: 100%;
 }
 .latest-news-article figcaption {
   padding: 1.5% 0 0 0;
@@ -241,7 +242,7 @@ color:gray;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width:28%;
+  width:40%;
   text-align: right;
   float: right;
 }
@@ -249,14 +250,15 @@ color:gray;
   display:inline-block;
   text-align: right;
 }
-#LatestDeals a{
+#extras-span-last,
+#LatestDeals a {
   border-right: none;
   padding-right: 0;
 }
 .extras-span a {
   color: red;
   border-right: 1px solid red;
-  padding-right: 2.5%;
+  padding:0 8%;
 }
 .extras-span a:hover {
   color: black;
@@ -397,9 +399,8 @@ footer {
   height:85vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2vh;
+  grid-gap: 5vh;
   grid-auto-rows: 50%;
-  grid-auto-columns: 25%;
   margin: 50px auto;
 }
 .latest-deals-grid-container figure {
@@ -407,7 +408,7 @@ footer {
   height: 100%;
 }
 .latest-deals-grid-container figure img{
-  height:270px;
+  height:70%;
   width:inherit;
 }
 .footer-links{
