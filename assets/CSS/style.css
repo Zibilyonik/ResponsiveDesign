@@ -58,12 +58,15 @@ h3:hover {
 }
 .fixed-topbar span{
   width: 35%;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   height: inherit;
   float: right;
   font-size: 0.8em;
+}
+.fixed-topbar span span {
+  max-width: 45px;
 }
 .fixed-topbar-left{
   display: inline-flex;
