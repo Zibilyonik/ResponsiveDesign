@@ -362,10 +362,11 @@ color:gray;
 
  }
  .topic-latest img {
-   width:7vw;
-   height: 7vw;
+   width:25%;
+   height: 100%;
    float:right;
    padding:0;
+   margin-top: 3%;
  }
  .topic-latest-texts {
    width:60%;
