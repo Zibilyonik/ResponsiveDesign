@@ -57,9 +57,9 @@ h3:hover {
   color:#FF4422;
 }
 .fixed-topbar span{
-  width: 35%;
+  width: 45%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   height: inherit;
   float: right;
@@ -75,9 +75,10 @@ h3:hover {
   height: 100%;
   justify-content: space-between;
 }
-@media only screen and (min-width:768px){
-
-
+@media only screen and (min-width:800px){
+.fixed-topbar span *{
+  margin: 0 0.5vw;
+}
 .burger-menu{
 display: none;
 }

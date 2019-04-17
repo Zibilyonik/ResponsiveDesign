@@ -1,4 +1,4 @@
-@media only screen and (max-width:769px){
+@media only screen and (max-width:800px){
 .fixed-bar-link{
   display: none;
 }
@@ -6,15 +6,27 @@
   display: none;
 }
 .fixed-topbar-left {
-  width:30%;
+  width:100px;
+}
+.fixed-topbar span{
+  width: 60%;
 }
 .burger-menu {
   height:50px;
   width: 50px;
 }
 }
-@media only screen and (max-width:1100px) and (min-width:769px){
+@media only screen and (max-width:1100px) and (min-width:800px){
   h3,h5, .fixed-bar-link {
     font-size: 0.6em;
+  }
+.fixed-bar-link.disappearing-link {
+    display: none;
+  }
+  .fixed-topbar-left{
+    width:42%;
+  }
+  .fixed-topbar > span{
+    width:435px;
   }
 }
