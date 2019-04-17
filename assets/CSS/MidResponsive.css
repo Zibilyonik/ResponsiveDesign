@@ -1,5 +1,19 @@
-@media only screen and (max-width:768px){
-.fixed-topbar-left{
+@media only screen and (max-width:769px){
+.fixed-bar-link{
   display: none;
 }
+.fixed-topbar span .max-size{
+  display: none;
+}
+.fixed-topbar-left {
+  width:30%;
+}
+.burger-menu {
+  height: 20px;
+}
+}
+@media only screen and (max-width:1100px) and (min-width:769px){
+  h3,h5, .fixed-bar-link {
+    font-size: 0.6em;
+  }
 }
