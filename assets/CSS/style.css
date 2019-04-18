@@ -58,6 +58,7 @@ h3:hover {
 }
 .fixed-topbar span{
   width: 45%;
+  padding-right: 5px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -74,6 +75,10 @@ h3:hover {
   align-items: center;
   height: 100%;
   justify-content: space-between;
+}
+.main-container{
+  width: 100%;
+  padding-top:75px;
 }
 #LandingItem1{
   background-image: url("../images/Apple-News-Plus.jpg");
@@ -110,13 +115,7 @@ h3:hover {
   width:100%;
   height:100px;
 }
-.topics-item {
-  background-image: url("../../assets/images/bitcoin-price-rise.jpg");
-  background-size: 25vw 20vw;
-  background-repeat: no-repeat;
-  background-position: top;
-  color: white;
-}
+
 .topics-item h3 {
   position: relative;
   top:-5vh;
@@ -124,7 +123,32 @@ h3:hover {
 .topic-first{
   width: 100%;
   height: 20vw;
-  padding: 35% 5% 0 5%;
+  padding: 45% 5% 0 5%;
+  background-image: url("../../assets/images/bitcoin-price-rise.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+}
+
+.article-bottom-description, .topic-first span {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 400;
+}
+.topic-first span *,.article-bottom-description *{
+  margin: 0px 5px;
+}
+.topic-first span a{
+  margin-left: 0px;
+}
+.topic-first span a:hover {
+  color:#fff;
 }
 .topic-list ul li::before {content: "•"; color: red;
   display: inline-block; width: 1em;
@@ -206,10 +230,7 @@ display: none;
 .fixed-topbar button:hover {
   background-color: #90c;
 }
-.main-container{
-  width: 100%;
-  padding-top:75px;
-}
+
 .landing-articles-container{
   width: inherit;
   height: 60vh;
@@ -277,16 +298,7 @@ display: none;
   width:3vh;
   height:3vh;
 }
-.article-bottom-description {
-  width: 100%;
-  height: 20%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  font-family: "Roboto Condensed";
-  font-size: 15px;
-  font-weight: 400;
-}
+
 .article-bottom-description *{
   margin: 0 5px;
 }
@@ -424,14 +436,7 @@ color:gray;
    text-align: left;
 
  }
- .topic-first span {
-   display: block;
-   margin-top: 1%;
-   font-size: 0.8em;
- }
- .topic-first span a:hover {
-   color:#fff;
- }
+
  .topic-latest {
    width:100%;
    height:13.5%;
