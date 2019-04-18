@@ -15,4 +15,39 @@
     height:50px;
     width: 50px;
   }
+  .landing-articles-container{
+    height: 75vh;
+  }
+  .big-article{
+    height: 33%;
+    width: 100%;
+    display: inline-grid;
+    margin: 0.5%;
+    padding: 18% 2vh 2vh 2vh;
+    align-items: flex-end;
+    background-image: url("../images/ai-artificial-intelligence-code-34676-405x270.jpg");
+  }
+  .small-article{
+    height: 33%;
+    width: 100%;
+    margin: 0.5% 0 0 0;
+    display:inline-grid;
+    padding: 18% 2vh 2vh 2vh;
+    align-items: flex-end;
+  }
+  .latest-news-grid-container{
+    width: 100%;
+    height:90vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2vh;
+    grid-auto-rows: 10%;
+    margin: 10vh auto;
+  }
+  .latest-news-grid-container img {
+    height: inherit;
+    width:10%;
+    float: left;
+    margin-right: 5px;
+  }
 }
