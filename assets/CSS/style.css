@@ -75,9 +75,80 @@ h3:hover {
   height: 100%;
   justify-content: space-between;
 }
+#LandingItem1{
+  background-image: url("../images/Apple-News-Plus.jpg");
+}
+#LandingItem2 {
+  background-image: url("../images/Anthem-368x276.jpg");
+}
 .latest-news-article {
   width: 100%;
   height: 100%;
+}
+#LatestDeals {
+  display:inline-block;
+  text-align: right;
+}
+#extras-span-last,
+#LatestDeals a {
+  border-right: none;
+  padding-right: 0;
+}
+.extras-span a {
+  color: red;
+  border-right: 1px solid red;
+  padding:0 8%;
+}
+.extras-span a:hover {
+  color: black;
+}
+.funding-item {
+  background: #fffaf8;
+  width:100%;
+}
+.funding-company-img {
+  width:100%;
+  height:100px;
+}
+.topics-item {
+  background-image: url("../../assets/images/bitcoin-price-rise.jpg");
+  background-size: 25vw 20vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+}
+.topics-item h3 {
+  position: relative;
+  top:-5vh;
+}
+.topic-first{
+  width: 100%;
+  height: 20vw;
+  padding: 35% 5% 0 5%;
+}
+.topic-list ul li::before {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+.topic-list {
+  padding: 0 20px;
+  margin: 5px auto;
+}
+.latest-deals-grid-container{
+  width: 100%;
+  height:85vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5vh;
+  grid-auto-rows: 50%;
+  margin: 50px auto;
+}
+.latest-deals-grid-container figure {
+  width: 100%;
+  height: 100%;
+}
+.latest-deals-grid-container figure img{
+  height:70%;
+  width:inherit;
 }
 .footer-links{
   font-size: 0.9em;
@@ -107,7 +178,7 @@ h3:hover {
 .stackpath {
   color: white;
 }
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1100px){
 .fixed-topbar span *{
   margin: 0 0.5vw;
 }
@@ -119,7 +190,6 @@ display: none;
   width:127px;
   height: 11px;
 }
-
 .fixed-topbar button {
   width:80px;
   height: 60%;
@@ -150,6 +220,7 @@ display: none;
   align-self: flex-end;
   margin-bottom: 1vh;
 }
+
 .big-h {
   display:block;
   line-height: 1.2;
@@ -187,15 +258,20 @@ display: none;
 .small-article{
   height: 49%;
   width: 32.5%;
-  margin: 0.5% 0.5% 0 0;
+  margin: 0.5% 0.5% 0.1% 0;
   display:inline-grid;
   padding: 4% 2vh 2vh 2vh;
 }
-#LandingItem1{
-  background-image: url("../images/Apple-News-Plus.jpg");
-}
-#LandingItem2 {
-  background-image: url("../images/Anthem-368x276.jpg");
+
+.latest-news-grid-container{
+  width: 100%;
+  height:75vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2vh;
+  grid-auto-rows: 50%;
+  grid-auto-columns: 25%;
+  margin: 10vh auto;
 }
 .landing-articles-container img {
   width:3vh;
@@ -279,31 +355,7 @@ color:gray;
   text-align: right;
   float: right;
 }
-#LatestDeals {
-  display:inline-block;
-  text-align: right;
-}
-#extras-span-last,
-#LatestDeals a {
-  border-right: none;
-  padding-right: 0;
-}
-.extras-span a {
-  color: red;
-  border-right: 1px solid red;
-  padding:0 8%;
-}
-.extras-span a:hover {
-  color: black;
-}
-.funding-item {
-  background: #fffaf8;
-  width:100%;
-}
-.funding-company-img {
-  width:100%;
-  height:100px;
-}
+
 .funding-properties{
   width: 10%;
   height: 25%;
@@ -349,22 +401,16 @@ color:gray;
    grid-gap: 5vh;
    justify-content: center;
  }
- .topics-item {
-   background-image: url("../../assets/images/bitcoin-price-rise.jpg");
-   background-size: 25vw 20vw;
-   background-repeat: no-repeat;
-   background-position: top;
-   color: white;
- }
- .topics-item h3 {
-   position: relative;
-   top:-5vh;
- }
- .topic-first{
+ .latest-deals-grid-container{
    width: 100%;
-   height: 20vw;
-   padding: 35% 5% 0 5%;
+   height:85vh;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 5vh;
+   grid-auto-rows: 50%;
+   margin: 50px auto;
  }
+
  .topic-first h5 {
    font-size: 0.8em;
    color:#fff;
@@ -420,30 +466,7 @@ footer {
   width: 100%;
   display: block;
 }
-.topic-list ul li::before {content: "•"; color: red;
-  display: inline-block; width: 1em;
-  margin-left: -1em}
-.topic-list {
-  padding: 0 20px;
-  margin: 5px auto;
-}
-.latest-deals-grid-container{
-  width: 100%;
-  height:85vh;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5vh;
-  grid-auto-rows: 50%;
-  margin: 50px auto;
-}
-.latest-deals-grid-container figure {
-  width: 100%;
-  height: 100%;
-}
-.latest-deals-grid-container figure img{
-  height:70%;
-  width:inherit;
-}
+
 .icon {
   height: 16px;
   width: 16px;
