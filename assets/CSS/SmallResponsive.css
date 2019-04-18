@@ -23,7 +23,7 @@
     width: 100%;
     display: inline-grid;
     margin: 0.5%;
-    padding: 18% 2vh 2vh 2vh;
+    padding: 12% 2vh 2vh 2vh;
     align-items: flex-end;
     background-image: url("../images/ai-artificial-intelligence-code-34676-405x270.jpg");
   }
@@ -32,7 +32,7 @@
     width: 100%;
     margin: 0.5% 0 0 0;
     display:inline-grid;
-    padding: 18% 2vh 2vh 2vh;
+    padding: 12% 2vh 2vh 2vh;
     align-items: flex-end;
   }
   .latest-news-grid-container{

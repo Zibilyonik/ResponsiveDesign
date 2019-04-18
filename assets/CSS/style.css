@@ -227,12 +227,21 @@ h3:hover {
   height:70%;
   width:inherit;
 }
+footer {
+  height: 30vh;
+  background-color: black;
+  width: 100%;
+  display: block;
+}
 .footer-links{
   font-size: 0.9em;
   width: inherit;
   display: inline-flex;
-  justify-content: space-between ;
-  padding: 5vh 30%;
+  justify-content: center ;
+  padding: 5vh 0;
+}
+.footer-links * {
+  padding:0 1%;
 }
 .footer-links h4:hover {
   color: white;
@@ -306,6 +315,7 @@ display: none;
 .small-article .small-h{
   font-size: 1.5em;
   margin: 0 0 4.5% 0;
+}
 }
 .big-article{
   height: 100%;
@@ -477,13 +487,6 @@ color:gray;
    font-weight: bold;
    font-family: Sans-serif;
  }
-footer {
-  height: 30vh;
-  background-color: black;
-  width: 100%;
-  display: block;
-}
-
 .icon {
   height: 16px;
   width: 16px;
@@ -491,4 +494,5 @@ footer {
 .funding-icon {
   float: left;
   margin: 8px 10px;
+}
 }
