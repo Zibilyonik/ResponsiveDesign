@@ -75,6 +75,38 @@ h3:hover {
   height: 100%;
   justify-content: space-between;
 }
+.latest-news-article {
+  width: 100%;
+  height: 100%;
+}
+.footer-links{
+  font-size: 0.9em;
+  width: inherit;
+  display: inline-flex;
+  justify-content: space-between ;
+  padding: 5vh 30%;
+}
+.footer-links h4:hover {
+  color: white;
+}
+.footer-desc span{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin: 5vh auto;
+}
+.footer-desc a {
+  margin: 0 1vh;
+}
+.tnw-footer-logo {
+  font-family: "Cute Font";
+  font-weight: bold;
+  font-size: 1.1em;
+  color: white;
+}
+.stackpath {
+  color: white;
+}
 @media only screen and (min-width:800px){
 .fixed-topbar span *{
   margin: 0 0.5vw;
@@ -192,20 +224,6 @@ color:gray;
 .mid-page-container {
   width:80%;
   margin:0 auto;
-}
-.latest-news-grid-container{
-  width: 100%;
-  height:75vh;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2vh;
-  grid-auto-rows: 50%;
-  grid-auto-columns: 25%;
-  margin: 10vh auto;
-}
-.latest-news-article {
-  width: 100%;
-  height: 100%;
 }
 .latest-news-article img {
   height: 60%;
@@ -425,34 +443,6 @@ footer {
 .latest-deals-grid-container figure img{
   height:70%;
   width:inherit;
-}
-.footer-links{
-  font-size: 0.9em;
-  width: inherit;
-  display: inline-flex;
-  justify-content: space-between ;
-  padding: 5vh 30%;
-}
-.footer-links h4:hover {
-  color: white;
-}
-.footer-desc span{
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
-  margin: 5vh auto;
-}
-.footer-desc a {
-  margin: 0 1vh;
-}
-.tnw-footer-logo {
-  font-family: "Cute Font";
-  font-weight: bold;
-  font-size: 1.1em;
-  color: white;
-}
-.stackpath {
-  color: white;
 }
 .icon {
   height: 16px;
