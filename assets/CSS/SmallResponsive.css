@@ -1,0 +1,18 @@
+@media only screen and (max-width:800px){
+  .fixed-bar-link{
+    display: none;
+  }
+  .fixed-topbar span .max-size{
+    display: none;
+  }
+  .fixed-topbar-left {
+    width:100px;
+  }
+  .fixed-topbar span{
+    width: 60%;
+  }
+  .burger-menu {
+    height:50px;
+    width: 50px;
+  }
+}
