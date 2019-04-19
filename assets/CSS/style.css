@@ -7,7 +7,6 @@ a{
 }
 a,p, h4 {
   display: block;
-  line-height: 1.2;
   font-family: "Roboto Condensed";
   color: #777777;
 }
@@ -107,7 +106,7 @@ h3:hover {
 .small-article{
   margin: 0.5% 0.5% 0.1% 0;
   display:inline-grid;
-  padding: 6% 2vh 2vh 2vh;
+  padding: 5% 2vh 2vh 2vh;
 }
 #LandingItem1{
   background-image: url("../images/Apple-News-Plus.jpg");
@@ -120,8 +119,8 @@ h3:hover {
   height: 100%;
 }
 #LatestDeals {
-  display:inline-block;
-  text-align: right;
+  display:inline-flex;
+  width: 90px;
 }
 #extras-span-last,
 #LatestDeals a {
@@ -132,7 +131,6 @@ h3:hover {
   font-size: 1.03em;
   font-weight: bold;
   font-family: "Oswald";
-  line-height: 1.4;
   color:black;
   display: block;
   width: 93%;
@@ -148,6 +146,11 @@ h3:hover {
   line-height: 20px;
   color:#aaa;
   text-decoration: none;
+  display:flex;
+  margin-right:10px;
+}
+.latest-news-article span{
+  font-family: "Roboto Condensed";
 }
 .latest-news-article span a:hover{
   color:#555;

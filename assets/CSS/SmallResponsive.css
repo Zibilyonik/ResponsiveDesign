@@ -30,7 +30,7 @@
   .small-article{
     height: 33%;
     width: 100%;
-    margin: 0.5% 0 0 0;
+    margin: 0.5%;
     display:inline-grid;
     padding: 12% 2vh 2vh 2vh;
     align-items: flex-end;
@@ -50,6 +50,9 @@
     float: left;
     margin-right: 5px;
   }
+  .latest-news-article span{
+    font-size:0.8em;
+  }
   .latest-funding-grid-container {
     display: grid;
     grid-column-gap:5vh;
@@ -67,6 +70,13 @@
   .latest-funding-grid-container .funding-company-img {
     display: none;
   }
+  .latest-news-article figcaption{
+    height:20px;
+    padding:0;
+  }
+  .latest-news-article figcaption a{
+    display: inline;
+  }
   .latest-funding-grid-container .funding-item {
     background-image: url("../images/FundingWide1.png");
     background-size: 100% 60px;
@@ -77,13 +87,19 @@
     display: none;
   }
   .latest-funding-grid-container h3 {
-    width:100%;
+    width:auto;
+    margin-right: auto;
   }
   .extras-span{
     display: block;
-    width:100%;
+    width:auto;
+    margin-right: 35%;
     text-align: left;
-    margin-bottom: 20px;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .fund-exp{
+    padding:2% 2% 0 2%;
   }
   .latest-funding-grid-container .extras-span * {
     border:none;
@@ -93,8 +109,11 @@
   .latest-funding-grid-container .funding-item .funding-list {
     display: block;
     float: left;
-    width:30%;
+    width:40%;
     padding: 7px 0 0 0;
+  }
+  .latest-funding-grid-container .funding-item .funding-list li{
+    width: 100%;
   }
   .topics-grid-container {
     display: grid;
@@ -104,5 +123,30 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(8, 1fr);
     grid-gap: 5vh;
+  }
+  .topic-first{
+    padding: 15% 2% 0 2%;
+    height: 30vw;
+  }
+  .topic-latest-texts{
+    padding: 2%;
+  }
+  .topic-list{
+    height: 35%;
+  }
+  .topic-list li{
+    margin-bottom: 5px;
+    line-height: 1.8em;
+    border-bottom: 0.5px solid #ccc;
+  }
+  .topic-list li:hover{
+    color:#333333;
+  }
+  #LatestDeals.extras-span {
+    float: right;
+    margin: 0 auto;
+  }
+  .footer-desc * {
+    font-size: 0.8em;
   }
 }
