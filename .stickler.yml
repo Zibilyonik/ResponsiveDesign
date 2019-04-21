@@ -1,8 +1,3 @@
 linters:
   stylelint:
-    fixer:true
-files:
-  ignore:
-    - 'assets/images/*'
-    - 'assets/icons/*'
-  
+    fixer: true
