@@ -1,0 +1,505 @@
+* {
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #777777;
+}
+a,p, h4 {
+  display: block;
+  font-family: "Roboto Condensed";
+  color: #777777;
+}
+h3,h5{
+  font-family: "Poppins";
+  font-size: 1.5em;
+  color:#FF4422;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2vh;
+  float: left;
+}
+h3:hover {
+  color:black;
+}
+.fixed-topbar {
+  position: fixed;
+  box-shadow: 3px 3px 5px grey;
+  z-index: 500;
+  width: 100%;
+  height: 57px;
+  background-color: white;
+  color: #444444;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.fixed-bar-link {
+  color: gray;
+  font-size: 0.9em;
+}
+.fixed-bar-tnw {
+  background-color: red;
+  height: inherit;
+  font-size: 2em;
+  display: inline-flex;
+  align-items: center;
+  width: 80px;
+  justify-content: center;
+  font-weight: bold;
+}
+#TNWLogoTop {
+  font-family: "Cute Font";
+  color: white;
+  display: block;
+}
+.fixed-topbar span a {
+  font-size: 2em;
+  color:#FF4422;
+}
+.fixed-topbar span{
+  width: 45%;
+  padding-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: inherit;
+  float: right;
+  font-size: 0.8em;
+}
+.fixed-topbar span span {
+  max-width: 50px;
+}
+.fixed-topbar-left{
+  display: inline-flex;
+  width: 55%;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+.main-container{
+  width: 99%;
+  padding-top:75px;
+}
+.landing-articles-container h1{
+  font-family: "Poppins";
+  font-weight: 700;
+  color: white;
+}
+.landing-articles-container h4{
+  color: #bbbbbb;
+}
+.background-img-landing:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.background-img-landing {
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  color:#fff;
+  transition:1s;
+}
+.big-article{
+  margin: 0.5%;
+  padding: 18% 2vh 0vh 2vh;
+  background-image: url("../images/ai-artificial-intelligence-code-34676-405x270.jpg");
+}
+
+.small-article{
+  margin: 0.5% 0.5% 0.1% 0;
+  display:inline-grid;
+  padding: 5% 2vh 2vh 2vh;
+}
+#LandingItem1{
+  background-image: url("../images/Apple-News-Plus.jpg");
+}
+#LandingItem2 {
+  background-image: url("../images/Anthem-368x276.jpg");
+}
+.latest-news-article {
+  width: 100%;
+  height: 100%;
+}
+#LatestDeals {
+  display:inline-flex;
+  width: 90px;
+}
+#extras-span-last,
+#LatestDeals a {
+  border-right: none;
+  padding-right: 0;
+}
+.latest-news-article .article-title {
+  font-size: 1.03em;
+  font-weight: bold;
+  font-family: "Oswald";
+  color:black;
+  display: block;
+  width: 93%;
+}
+.article-title:hover {
+  color: red;
+  text-decoration: underline;
+}
+.latest-news-article span ,
+.latest-news-article a,
+.topic-first span,
+.topic-first span a {
+  line-height: 20px;
+  color:#aaa;
+  text-decoration: none;
+  display:flex;
+  margin-right:10px;
+}
+.latest-news-article span{
+  font-family: "Roboto Condensed";
+}
+.latest-news-article span a:hover{
+  color:#555;
+}
+
+.latest-news-article img {
+  height: 60%;
+  width: 100%;
+}
+.latest-news-article figcaption {
+  padding: 1.5% 0 0 0;
+}
+.extras-span a {
+  color: red;
+  border-right: 1px solid red;
+  padding:0 5%;
+}
+.extras-span a:hover {
+  color: black;
+}
+.funding-item {
+  background: #fffaf8;
+  width:100%;
+}
+.funding-company-img {
+  width:100%;
+  height:100px;
+}
+
+.topics-item h3 {
+  position: relative;
+  top:-5vh;
+}
+.topic-first{
+  width: 100%;
+  height: 20vw;
+  padding: 45% 5% 0 5%;
+  background-image: url("../../assets/images/bitcoin-price-rise.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+}
+
+.article-bottom-description, .topic-first span {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 400;
+}
+.topic-latest img {
+  width:25%;
+  height: 100%;
+  float:right;
+}
+.topic-latest-texts {
+  width:60%;
+  float: left;
+  font-family: "Roboto Condensed";
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 5%;
+}
+.topic-latest-texts a {
+  color: #f42;
+  font-size: 1.05em;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+.icon {
+ height: 16px;
+ width: 16px;
+}
+.funding-icon {
+ float: left;
+ margin: 8px 10px;
+}
+.topic-latest {
+  width:100%;
+  height:13.5%;
+  color: #f42;
+  background-color: rgba(255,68,34,.06);
+  overflow-y: hidden;
+}
+.topic-first h5 {
+  color:#fff;
+  font-weight: bold;
+}
+.topic-first p{
+  margin-bottom: 0.3em;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+.topic-first span *,.article-bottom-description *{
+  margin: 0px 5px;
+}
+.topic-first span a{
+  margin-left: 0px;
+}
+.topic-first span a:hover {
+  color:#fff;
+}
+.topic-list ul li a {
+  display: inline-flex;
+}
+.topic-list ul li::before {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em;}
+.topic-list {
+  padding: 0 20px;
+  margin: 5px auto;
+}
+.latest-deals-grid-container{
+  width: 100%;
+  height:85vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5vh;
+  grid-auto-rows: 50%;
+  margin: 50px auto;
+}
+.latest-deals-grid-container figure {
+  width: 100%;
+  height: 100%;
+}
+.latest-deals-grid-container figure img{
+  height:70%;
+  width:inherit;
+}
+footer {
+  height: 30vh;
+  background-color: black;
+  width: 100%;
+  display: block;
+}
+.footer-links{
+  font-size: 0.9em;
+  width: inherit;
+  display: inline-flex;
+  justify-content: center ;
+  padding: 5vh 0;
+}
+.footer-links * {
+  padding:0 1%;
+}
+.footer-links h4:hover {
+  color: white;
+}
+.footer-desc span{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin: 5vh auto;
+  color: white;
+}
+.footer-desc a {
+  margin: 0 1vh;
+}
+.tnw-footer-logo {
+  font-family: "Cute Font";
+  font-weight: bold;
+  font-size: 1.1em;
+  color: white;
+}
+.stackpath {
+  color: white;
+}
+
+@media only screen and (min-width:1100px){
+.fixed-topbar span *{
+  margin: 0 0.5vw;
+}
+.burger-menu{
+display: none;
+}
+
+.conference-img{
+  width:127px;
+  height: 11px;
+}
+.fixed-topbar button {
+  width:80px;
+  height: 60%;
+  font-size: 0.75em;
+  font-family:  "Poppins", sans-serif;
+  background-color: #00CCCC;
+  font-weight: 700;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+  color:#fff;
+  letter-spacing: 0.05em;
+}
+.fixed-topbar button:hover {
+  background-color: #90c;
+}
+
+.landing-articles-container{
+  width: inherit;
+  height: 60vh;
+  margin-bottom: 5vh;
+}
+.landing-articles-container h4 {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 1vh;
+}
+
+.big-h {
+  display:block;
+  line-height: 1.2;
+  width: 80%;
+}
+.landing-articles-container h1{
+  font-size: 2em;
+}
+.small-article .small-h{
+  font-size: 1.5em;
+  margin: 0 0 4.5% 0;
+}
+
+.big-article{
+  height: 100%;
+  width: 66%;
+  float: left;
+  display: block;
+}
+
+.small-article{
+  height: 49%;
+  width: 32.5%;
+}
+
+.latest-news-grid-container{
+  width: 100%;
+  height:75vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2vh;
+  grid-auto-rows: 50%;
+  grid-auto-columns: 25%;
+  margin: 10vh auto;
+}
+.landing-articles-container img {
+  width:3vh;
+  height:3vh;
+}
+.mid-page-container {
+  width:80%;
+  margin:0 auto;
+}
+
+.article-bottom-description *{
+  margin: 0 5px;
+}
+.article-bottom-description a{
+color:gray;
+}
+.article-bottom-description a:hover {
+  color: #fff;
+}
+
+.latest-funding-grid-container {
+  display: grid;
+  grid-column-gap:8vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 15% 85%;
+  width:100%;
+  margin: 10px auto;
+  height: 45vh;
+}
+.funding-header {
+  grid-column:1 / span 4;
+}
+.funding-header h3 {
+  width: 45%;
+}
+.extras-span{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:40%;
+  text-align: right;
+  float: right;
+}
+
+.funding-properties{
+  width: 10%;
+  height: 25%;
+  float: left;
+}
+.funding-list {
+  list-style-image: none;
+  float: left;
+  padding: 2.5% 0 3% 3%;
+  width:90%;
+  height:25%;
+  line-height: 1.8;
+  font-size: 0.8em;
+}
+.funding-list a, .fund-exp a span .on {
+  text-decoration: none;
+  color:#aaa;
+  display: inline-block;
+  margin: 0 25% 10px 0;
+  align-items: center;
+}
+.funding-list a:hover{
+  color: black;
+}
+.fund-exp {
+  height: 20%;
+  width:100%;
+  padding: 5% 2% 0 5%;
+  font-size: 0.8em;
+  border-top: 1px solid rgba(255,68,34,.25);
+  clear: left;
+}
+ .fund-exp > a{
+   color:#555;
+ }
+ .topics-grid-container {
+   display: grid;
+   width:auto;
+   margin: 100px auto;
+   height: 330vh;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   grid-gap: 5vh;
+   justify-content: center;
+ }
+ .latest-deals-grid-container{
+   width: 100%;
+   height:85vh;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 5vh;
+   grid-auto-rows: 50%;
+   margin: 50px auto;
+ }
+
+ .topic-first h5,
+ .topic-first p {
+   font-size: 0.8em;
+ }
+}
